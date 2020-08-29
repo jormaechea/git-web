@@ -2,7 +2,7 @@ name: NPM Publish
 
 on:
   push:
-    tags: [ '*' ]
+    tags: [ 'v*' ]
 
 jobs:
   build:
