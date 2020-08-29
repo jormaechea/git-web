@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12.x
       - run: npm i
-      - run: npm test-ci
+      - run: npm run test-ci
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
