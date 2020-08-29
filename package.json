@@ -1,0 +1,58 @@
+{
+  "name": "git-web",
+  "version": "1.0.0",
+  "description": "A CLI utility to interact with git providers on the web",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "export TEST_ENV=true; mocha --exit --recursive tests/",
+    "test-ci": "nyc --reporter=html --reporter=text mocha --recursive tests/",
+    "watch-test": "export TEST_ENV=true; mocha --exit -w --recursive tests/",
+    "coverage": "nyc npm test",
+    "lint": "eslint lib/ tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jormaechea/git-web.git"
+  },
+  "homepage": "https://github.com/jormaechea/git-web.git#readme",
+  "bin": {
+    "git-ci": "git-ci",
+    "git-issues": "git-issues",
+    "git-pr": "git-pr",
+    "git-prs": "git-prs",
+    "git-web": "git-web"
+  },
+  "files": [
+    "lib/"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [
+    "git",
+    "git web",
+    "github",
+    "bitbucket",
+    "gitlab",
+    "codecommit",
+    "browser",
+    "open in browser",
+    "cli",
+    "terminal"
+  ],
+  "author": "Joaquín Ormaechea <https://github.com/jormaechea>",
+  "license": "MIT",
+  "dependencies": {
+    "git-up": "^4.0.2",
+    "open": "^7.2.1",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
+    "mocha": "^8.1.3"
+  }
+}
