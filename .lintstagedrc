@@ -1,6 +1,6 @@
 {
     "lib/**": [
         "npm run test",
-        "npx eslint --fix"
+        "eslint --fix"
     ]
 }
