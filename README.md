@@ -52,68 +52,30 @@ This is a CLI utility inspired by [git-open](https://github.com/paulirish/git-op
 
 Open your git web interface right from your terminal! Both git and CI/CD will be autodetected using your git remote(s) and your repository config files.
 
-The following features are available for each provider:
+The following features are available for git providers:
 
-### AWS Codecommit
+|        | AWS Codecommit | Bitbucket | Github | Gitlab |
+|--------|----------------|-----------|--------|--------|
+| Open repository home                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open commits list                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open an specific commit             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open pipeline executions list       | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open an specific pipeline execution | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open pull requests list             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open an specific pull request       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open PR creation screen             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Fork a repository                   | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open issues list                    | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Open an specific issue              | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-- Open repository home
-- Open commits list
-- Open an specific commit
-- Open pull requests list
-- Open an specific pull request
-- Open PR creation screen
+> NP: Not provided. Feature is not available in the provider.
 
-### Bitbucket
+And the following CI/CD providers are supported and autodetected:
 
-- Open repository home
-- Open commits list
-- Open an specific commit
-- Open pipeline executions list
-- Open an specific pipeline execution
-- Open pull requests list
-- Open an specific pull request
-- Open PR creation screen
-- Fork a repository
-- Open issues list
-- Open an specific issue
-
-### CircleCI
-
-- Open pipeline executions list
-- Open an specific pipeline execution
-
-### Github
-
-- Open repository home
-- Open commits list
-- Open an specific commit
-- Open pipeline executions list
-- Open an specific pipeline execution
-- Open pull requests list
-- Open an specific pull request
-- Open PR creation screen
-- Fork a repository
-- Open issues list
-- Open an specific issue
-
-### Gitlab
-
-- Open repository home
-- Open commits list
-- Open an specific commit
-- Open pipeline executions list
-- Open an specific pipeline execution (or the latest!)
-- Open pull requests list
-- Open an specific pull request
-- Open PR creation screen
-- Fork a repository
-- Open issues list
-- Open an specific issue
-
-### Travis
-
-- Open pipeline executions list
-- Open an specific pipeline execution
+|        | CircleCI | Travis |
+|--------|----------|--------|
+| Open pipeline executions list       | :heavy_check_mark: | :heavy_check_mark: |
+| Open an specific pipeline execution | :heavy_check_mark: | :heavy_check_mark: |
 
 ## Contributing
 
