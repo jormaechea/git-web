@@ -21,3 +21,82 @@
 <p align="center">
 	<strong>Interact with your git provider from your command line.</strong>
 </p>
+
+## :question: Usage
+
+First install it globally:
+
+```sh
+npm install --global git-web
+```
+
+Then you will be able to run your brand new git commands:
+
+```sh
+git web # Open the repository home
+
+git web -c # Open the list of commits
+
+git web -c COMMITHASH # Open an specific commit
+
+git ci # Open your CI/CD provider
+
+git ci -e ID # Open a CI/CD execution details
+```
+
+## :question: Why?
+
+This is a CLI utility inspired by [git-open](https://github.com/paulirish/git-open), but implemented in node. Why? Because I think it has a wider community that can use and contribute to the project.
+
+## :ballot_box_with_check: Features
+
+Open your git web interface right from your terminal! Both git and CI/CD will be autodetected using your git remote(s) and your repository config files.
+
+The following features are available for each provider:
+
+### AWS Codecommit
+
+- Open repository home
+- Open commits list
+- Open an specific commit
+- Open pipeline executions list
+- Open an specific pipeline execution
+
+### Bitbucket
+
+- Open repository home
+- Open commits list
+- Open an specific commit
+- Open pipeline executions list
+- Open an specific pipeline execution
+
+### Github
+
+- Open repository home
+- Open commits list
+- Open an specific commit
+- Open pipeline executions list
+- Open an specific pipeline execution
+
+### Gitlab
+
+- Open repository home
+- Open commits list
+- Open an specific commit
+- Open pipeline executions list
+- Open an specific pipeline execution (or the latest!)
+
+## :soon: Roadmap
+
+- Open open issues
+- Open open PRs
+- Create a new PR
+- Create a fork
+
+## Contributing
+
+All contributions are welcome. And remember to be nice to each other!
+
+## License
+
+MIT
