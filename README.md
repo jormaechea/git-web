@@ -42,7 +42,17 @@ git web -c COMMITHASH # Open an specific commit
 git ci # Open your CI/CD provider
 
 git ci -e ID # Open a CI/CD execution details
+
+git prs # Open PRs list
+
+git pr # Create a new PR from current branch to master
+
+git pr -s feature/1-my-feature -d develop # Create a PR from a feature branch to develop branch
+
+git issues # Open issues list
 ```
+
+For more information, use `git help [command]` or `git [command] --help`. For example: `git help web`.
 
 ## :question: Why?
 
