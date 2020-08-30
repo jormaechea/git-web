@@ -16,12 +16,12 @@
   },
   "homepage": "https://github.com/jormaechea/git-web.git#readme",
   "bin": {
-    "git-ci": "git-ci",
-    "git-fork": "git-fork",
-    "git-issues": "git-issues",
-    "git-pr": "git-pr",
-    "git-prs": "git-prs",
-    "git-web": "git-web"
+    "git-ci": "lib/cli/ci.js",
+    "git-fork": "lib/cli/fork.js",
+    "git-issues": "lib/cli/issues.js",
+    "git-pr": "lib/cli/pr.js",
+    "git-prs": "lib/cli/prs.js",
+    "git-web": "lib/cli/web.js"
   },
   "files": [
     "lib/"
