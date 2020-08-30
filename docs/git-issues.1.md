@@ -45,4 +45,4 @@ Copyright (c) 2020, Joaquín Ormaechea (MIT).
 
 ## SEE ALSO
 
-git-ci(1), git-fork(1), git-pr(1), git-prs(1), git-web(1)
+git-ci(1), git-fork(1), git-issue(1), git-pr(1), git-prs(1), git-web(1)

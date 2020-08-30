@@ -50,6 +50,8 @@ git pr # Create a new PR from current branch to master
 git pr -s feature/1-my-feature -d develop # Create a PR from a feature branch to develop branch
 
 git issues # Open issues list
+
+git issue # Create a new issue
 ```
 
 For more information, use `git help [command]` or `git [command] --help`. For example: `git help web`.
@@ -77,6 +79,7 @@ The following features are available for git providers:
 | Fork a repository                   | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Open issues list                    | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Open an specific issue              | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Create a new issue                  | NP | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 > NP: Not provided. Feature is not available in the provider.
 

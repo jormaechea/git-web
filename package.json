@@ -19,6 +19,7 @@
   "bin": {
     "git-ci": "lib/cli/ci.js",
     "git-fork": "lib/cli/fork.js",
+    "git-issue": "lib/cli/issue.js",
     "git-issues": "lib/cli/issues.js",
     "git-pr": "lib/cli/pr.js",
     "git-prs": "lib/cli/prs.js",
