@@ -17,6 +17,7 @@
   "homepage": "https://github.com/jormaechea/git-web.git#readme",
   "bin": {
     "git-ci": "git-ci",
+    "git-fork": "git-fork",
     "git-issues": "git-issues",
     "git-pr": "git-pr",
     "git-prs": "git-prs",
