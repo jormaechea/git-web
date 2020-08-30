@@ -55,7 +55,7 @@ Open your git web interface right from your terminal! Both git and CI/CD will be
 The following features are available for git providers:
 
 |        | AWS Codecommit | Bitbucket | Github | Gitlab |
-|--------|----------------|-----------|--------|--------|
+|--------|:--------------:|:---------:|:------:|:------:|
 | Open repository home                | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Open commits list                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Open an specific commit             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
@@ -73,7 +73,7 @@ The following features are available for git providers:
 And the following CI/CD providers are supported and autodetected:
 
 |        | CircleCI | Travis |
-|--------|----------|--------|
+|--------|:--------:|:------:|
 | Open pipeline executions list       | :heavy_check_mark: | :heavy_check_mark: |
 | Open an specific pipeline execution | :heavy_check_mark: | :heavy_check_mark: |
 
