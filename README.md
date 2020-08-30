@@ -61,6 +61,7 @@ The following features are available for each provider:
 - Open an specific commit
 - Open pull requests list
 - Open an specific pull request
+- Open PR creation screen
 
 ### Bitbucket
 
@@ -71,6 +72,7 @@ The following features are available for each provider:
 - Open an specific pipeline execution
 - Open pull requests list
 - Open an specific pull request
+- Open PR creation screen
 
 ### CircleCI
 
@@ -86,6 +88,7 @@ The following features are available for each provider:
 - Open an specific pipeline execution
 - Open pull requests list
 - Open an specific pull request
+- Open PR creation screen
 
 ### Gitlab
 
@@ -96,6 +99,7 @@ The following features are available for each provider:
 - Open an specific pipeline execution (or the latest!)
 - Open pull requests list
 - Open an specific pull request
+- Open PR creation screen
 
 ### Travis
 
@@ -105,7 +109,6 @@ The following features are available for each provider:
 ## :soon: Roadmap
 
 - Open open issues
-- Create a new PR
 - Create a fork
 
 ## Contributing
