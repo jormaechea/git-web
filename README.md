@@ -59,14 +59,21 @@ The following features are available for each provider:
 - Open repository home
 - Open commits list
 - Open an specific commit
-- Open pipeline executions list
-- Open an specific pipeline execution
+- Open pull requests list
+- Open an specific pull request
 
 ### Bitbucket
 
 - Open repository home
 - Open commits list
 - Open an specific commit
+- Open pipeline executions list
+- Open an specific pipeline execution
+- Open pull requests list
+- Open an specific pull request
+
+### CircleCI
+
 - Open pipeline executions list
 - Open an specific pipeline execution
 
@@ -77,6 +84,8 @@ The following features are available for each provider:
 - Open an specific commit
 - Open pipeline executions list
 - Open an specific pipeline execution
+- Open pull requests list
+- Open an specific pull request
 
 ### Gitlab
 
@@ -85,11 +94,17 @@ The following features are available for each provider:
 - Open an specific commit
 - Open pipeline executions list
 - Open an specific pipeline execution (or the latest!)
+- Open pull requests list
+- Open an specific pull request
+
+### Travis
+
+- Open pipeline executions list
+- Open an specific pipeline execution
 
 ## :soon: Roadmap
 
 - Open open issues
-- Open open PRs
 - Create a new PR
 - Create a fork
 
