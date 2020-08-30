@@ -22,7 +22,7 @@
 	<strong>Interact with your git provider from your command line.</strong>
 </p>
 
-## :question: Usage
+## :computer: Usage
 
 First install it globally:
 
