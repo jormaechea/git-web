@@ -73,6 +73,7 @@ The following features are available for each provider:
 - Open pull requests list
 - Open an specific pull request
 - Open PR creation screen
+- Fork a repository
 
 ### CircleCI
 
@@ -89,6 +90,7 @@ The following features are available for each provider:
 - Open pull requests list
 - Open an specific pull request
 - Open PR creation screen
+- Fork a repository
 
 ### Gitlab
 
@@ -100,6 +102,7 @@ The following features are available for each provider:
 - Open pull requests list
 - Open an specific pull request
 - Open PR creation screen
+- Fork a repository
 
 ### Travis
 
@@ -109,7 +112,6 @@ The following features are available for each provider:
 ## :soon: Roadmap
 
 - Open open issues
-- Create a fork
 
 ## Contributing
 
