@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 
-const hostnameMapper = require('../../../lib/providers/hostname');
+const hostnameMapper = require('../../../../lib/providers/hostname');
 
 describe('Providers', () => {
 	describe('Hostname', () => {

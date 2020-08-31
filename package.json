@@ -4,9 +4,9 @@
   "description": "A CLI utility to interact with git providers on the web",
   "main": "lib/index.js",
   "scripts": {
-    "test": "export TEST_ENV=true; mocha --exit --recursive tests/",
-    "test-ci": "nyc --reporter=html --reporter=text mocha --recursive tests/",
-    "watch-test": "export TEST_ENV=true; mocha --exit -w --recursive tests/",
+    "test": "export TEST_ENV=true; mocha --exit --recursive tests/unit",
+    "test-ci": "nyc --reporter=html --reporter=text mocha --recursive tests/unit",
+    "watch-test": "export TEST_ENV=true; mocha --exit -w --recursive tests/unit",
     "coverage": "nyc npm test",
     "lint": "eslint lib/ tests/",
     "prepublish": "scripts/build-man-pages.sh"
