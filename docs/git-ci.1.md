@@ -10,12 +10,9 @@ Open your CI/CD repository provider in the browser.
 
 ## SYNOPSIS
 
-`git ci [--remote remote-name] [--execution-id id]`
+`git ci [--execution-id id]`
 
 ## ARGUMENTS
-
-`--remote`, `-r`
-	Use a different remote. Default: `origin`
 
 `--execution-id`, `-e`
 	Show an specific execution
