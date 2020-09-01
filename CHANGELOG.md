@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2020-08-31
+### Added
+- New commmands: `git fork`, `git issue`, `git issues`, `git pr` and `git prs`.
+- Man pages for all the commands
+- Documentation in README
+- Stability improved with unit testing
+
 ## [0.1.0] - 2020-08-29
 ### Added
 - `git web` command with origin and commit modifiers with support for bitbucket, codecommit, github and gitlab.
