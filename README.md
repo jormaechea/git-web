@@ -92,7 +92,13 @@ And the following CI/CD providers are supported and autodetected:
 
 ## Contributing
 
-All contributions are welcome. And remember to be nice to each other!
+All contributions are welcome. There are a couple of ways to do so:
+
+- Report an issue with a bug, feature or enhancement
+- Submit a PR that solves an issue
+- Or just :star: star the repo and share it with your colleagues.
+
+And always remember to be nice to each other!
 
 ## License
 
