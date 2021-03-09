@@ -45,7 +45,7 @@ describe('Helpers', () => {
 					message: 'Some error'
 				});
 
-				sinon.assert.calledOnceWithExactly(fs.access, '/root/path/foo.txt', 'r', sinon.match.func);
+				sinon.assert.calledOnceWithExactly(fs.access, '/root/path/foo.txt', fs.constants.R_OK, sinon.match.func);
 			});
 
 			it('Should resolve with false if fs.access fails with ENOENT error', async () => {
@@ -64,7 +64,7 @@ describe('Helpers', () => {
 
 				assert.strictEqual(result, false);
 
-				sinon.assert.calledOnceWithExactly(fs.access, '/root/path/foo.txt', 'r', sinon.match.func);
+				sinon.assert.calledOnceWithExactly(fs.access, '/root/path/foo.txt', fs.constants.R_OK, sinon.match.func);
 			});
 
 			it('Should resolve with true if fs.access succeeds', async () => {
@@ -81,7 +81,7 @@ describe('Helpers', () => {
 
 				assert.strictEqual(result, true);
 
-				sinon.assert.calledOnceWithExactly(fs.access, '/root/path/foo.txt', 'r', sinon.match.func);
+				sinon.assert.calledOnceWithExactly(fs.access, '/root/path/foo.txt', fs.constants.R_OK, sinon.match.func);
 			});
 
 		});
