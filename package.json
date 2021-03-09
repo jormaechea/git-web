@@ -1,6 +1,6 @@
 {
   "name": "git-web",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A CLI utility to interact with git providers on the web",
   "main": "lib/index.js",
   "scripts": {
