@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-03-09
+### Fixed
+- Issue with `fs.access` flags in node 14+
+
 ## [0.2.0] - 2020-08-31
 ### Added
 - New commmands: `git fork`, `git issue`, `git issues`, `git pr` and `git prs`.
