@@ -25,6 +25,11 @@ module.exports = {
 		'prefer-template': 0,
 		'import/no-unresolved': 0,
 		'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/tests/**/*.js'] }],
+		'import/no-import-module-exports': 0,
+		'import/no-relative-packages': 0,
+
+		'no-unsafe-optional-chaining': 0,
+		'no-nonoctal-decimal-escape': 0,
 
 		'no-bitwise': 0,
 

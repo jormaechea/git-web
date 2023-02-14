@@ -48,20 +48,20 @@
   "author": "Joaquín Ormaechea <https://github.com/jormaechea>",
   "license": "MIT",
   "dependencies": {
-    "git-up": "^4.0.2",
-    "open": "^7.2.1",
-    "yargs": "^15.4.1"
+    "git-up": "^7.0.0",
+    "open": "^8.4.1",
+    "yargs": "^17.6.2"
   },
   "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.13",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
     "marked": "^0.7.0",
     "marked-man": "^0.7.0",
-    "mocha": "^8.1.3",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "sinon": "^9.0.3"
+    "sinon": "^15.0.1"
   }
 }
