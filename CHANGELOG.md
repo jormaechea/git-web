@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.2.0] - 2021-03-09
+## [1.0.0] - 2023-02-14
+### Changed
+- Dropped support for node 10 and 12 **BREAKING CHANGE**
+- Updated bitbucket pipelines URLs
+
+### Security
+- Dependencies updated to fix known vulnerabilities
+
+## [0.2.1] - 2021-03-09
 ### Fixed
 - Issue with `fs.access` flags in node 14+
 
