@@ -10,6 +10,7 @@ describe('Providers', () => {
 
 			it('Should return a string representing the provider', () => {
 				assert.deepStrictEqual(hostnameMapper('bitbucket.org'), 'bitbucket');
+				assert.deepStrictEqual(hostnameMapper('ssh.bitbucket.org'), 'bitbucket');
 				assert.deepStrictEqual(hostnameMapper('git-codecommit.us-east-1.amazonaws.com'), 'codecommit');
 				assert.deepStrictEqual(hostnameMapper('git-codecommit.us-west-2.amazonaws.com'), 'codecommit');
 				assert.deepStrictEqual(hostnameMapper('github.com'), 'github');

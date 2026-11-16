@@ -4,7 +4,9 @@ module.exports.bitbucketRemoteUrls = [
 	'https://bitbucket.org/my-workspace/my-repo.git',
 	'https://user@bitbucket.org/my-workspace/my-repo.git',
 	'https://user:password@bitbucket.org/my-workspace/my-repo.git',
-	'git@bitbucket.org:my-workspace/my-repo.git'
+	'git@bitbucket.org:my-workspace/my-repo.git',
+	'user@ssh.bitbucket.org:my-workspace/my-repo.git',
+	'ssh://git@ssh.bitbucket.org/my-workspace/my-repo.git'
 ];
 
 module.exports.codecommitRemoteUrls = [
