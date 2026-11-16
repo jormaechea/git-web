@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-16
+### Fixed
+- Bitbucket remotes using the `ssh.bitbucket.org` hostname are now identified
+
 ## [1.0.0] - 2023-02-14
 ### Changed
 - Dropped support for node 10 and 12 **BREAKING CHANGE**
