@@ -4,17 +4,21 @@ on:
   push:
     tags: [ 'v*' ]
 
+permissions:
+  contents: read
+  id-token: write # Required for npm trusted publishing (OIDC)
+
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 14.x
+          node-version: 22.x
           registry-url: https://registry.npmjs.org/
-      - run: npm i
+      # Trusted publishing requires npm >= 11.5.1 (node 22 ships with npm 10)
+      - run: npm install -g npm@latest
+      - run: npm ci
       - run: npm test
       - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}

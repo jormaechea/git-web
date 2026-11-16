@@ -3,18 +3,21 @@ name: Build Status
 on:
   - push
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm i
+      - run: npm ci
       - run: npm test
       - run: npm run lint
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [22.x]
